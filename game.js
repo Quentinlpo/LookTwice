@@ -49,7 +49,7 @@ function displayImages(index) {
     images.forEach((imgData, index, array) => {
         const img = document.createElement('img');
         img.src = imgData.src;
-        img.dataset.real = imgData.isReal; // utile pour savoir si l'utilisateur a cliqué sur la bonne
+        img.dataset.real = imgData.isReal;
         img.classList.add('game-image');
 
         const scoreDisplay = document.createElement("p");
@@ -114,6 +114,5 @@ function handleImageClick(event) {
             response.innerHTML = '';
             console.log(score);
         });
-
     }
 }
