@@ -2,26 +2,26 @@ let currentIndex = 0;
 let score = 0;
 
 const photo = [
-    {real: "img/real_1.png", ai:"img/ai_1.png"},
-    {real: "img/hamster2.jpg", ai:"img/hamster1.jpg"},
-    {real: "img/4.png", ai:"img/3.png"},
-    {real: "img/6.png", ai:"img/5.png"},
-    {real: "img/8.png", ai:"img/7.png"},
-    {real: "img/10.png", ai:"img/9.png"},
-    {real: "img/12.png", ai:"img/11.png"},
-    {real: "img/14.png", ai:"img/13.png"},
-    {real: "img/16.png", ai:"img/15.png"},
-    {real: "img/18.png", ai:"img/17.png"},
-    {real: "img/20.png", ai:"img/19.png"},
-    {real: "img/22.png", ai:"img/21.png"},
-    {real: "img/24.png", ai:"img/23.png"},
-    {real: "img/26.png", ai:"img/25.png"},
-    {real: "img/28.png", ai:"img/27.png"},
-    {real: "img/30.png", ai:"img/29.png"},
-    {real: "img/32.png", ai:"img/31.png"},
-    {real: "img/34.png", ai:"img/33.png"},
-    {real: "img/36.png", ai:"img/35.png"},
-    {real: "img/38.png", ai:"img/37.png"}
+    {real: "img/real_1.webp", ai:"img/ai_1.webp"},
+    {real: "img/hamster2.webp", ai:"img/hamster1.webp"},
+    {real: "img/4.webp", ai:"img/3.webp"},
+    {real: "img/6.webp", ai:"img/5.webp"},
+    {real: "img/8.webp", ai:"img/7.webp"},
+    {real: "img/10.webp", ai:"img/9.webp"},
+    {real: "img/12.webp", ai:"img/11.webp"},
+    {real: "img/14.webp", ai:"img/13.webp"},
+    {real: "img/16.webp", ai:"img/15.webp"},
+    {real: "img/18.webp", ai:"img/17.webp"},
+    {real: "img/20.webp", ai:"img/19.webp"},
+    {real: "img/22.webp", ai:"img/21.webp"},
+    {real: "img/24.webp", ai:"img/23.webp"},
+    {real: "img/26.webp", ai:"img/25.webp"},
+    {real: "img/28.webp", ai:"img/27.webp"},
+    {real: "img/30.webp", ai:"img/29.webp"},
+    {real: "img/32.webp", ai:"img/31.webp"},
+    {real: "img/34.webp", ai:"img/33.webp"},
+    {real: "img/36.webp", ai:"img/35.webp"},
+    {real: "img/38.webp", ai:"img/37.webp"}
 ]
 
 window.addEventListener("DOMContentLoaded", () => {

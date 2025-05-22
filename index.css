@@ -132,6 +132,10 @@ button {
     display: flex;
     flex-direction: column;
   }
+.game img {
+    width: 300px;
+    margin: auto;
+}
 }
 
 .fb-button {
